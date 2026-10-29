@@ -1,0 +1,5 @@
+# 官方装配层：把这行插进 profile 的配置树（重启后由 bundles 正常加载）
+- insert:
+    - id: dsh-session-message
+      name: 'dsh-session-message'
+      config: {}

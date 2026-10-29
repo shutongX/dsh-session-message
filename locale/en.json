@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Messaging",
+    "description": "Send a user-role message to another DSH session in any workspace, and let it reply."
+  }
+}
