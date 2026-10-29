@@ -34,6 +34,9 @@ dsh plugin --profile desktop add https://github.com/shutongX/dsh-session-message
 
 装完重启 DSH（或在支持 HMR 的 profile 里等它热加载）。
 
+
+> 如果你以前用开发目录装过旧的 `@dsh-external/<name>` 版本，先移除旧插件，再装这里的无 scope 包；否则同一功能会同时加载两份。
+
 ## 长什么样
 
 ```text

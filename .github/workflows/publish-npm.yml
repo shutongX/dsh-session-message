@@ -22,6 +22,7 @@ jobs:
           TAG="v$(node -p "require('./package.json').version")"
           git checkout "$TAG"
       - run: npm test
+      - run: npm pack --dry-run
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
